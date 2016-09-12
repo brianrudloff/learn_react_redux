@@ -1,0 +1,351 @@
+const dashboard = {
+    "person": {
+        "pk": 1,
+        "username": "shige",
+        "get_full_name": "Shige Abe",
+        "email": "shige.abe@nasa.gov"
+    },
+    "team_reports": [{
+        "pk": 419,
+        "annual_report": {
+            "pk": 32,
+            "start": "2015-01-01",
+            "end": "2015-12-31"
+        },
+        "team": {
+            "pk": 43,
+            "name": "Massachusetts Institute of Technology"
+        }
+    }],
+    "all_projects": [{
+        "pk": 4102,
+        "title": "Mars Analog Studies: Reflectance Spectroscopy of Organics in Ancient Rocks and Meteorites",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4103,
+        "title": "Mars Analog Studies: Mineral Assemblages in Terrestrial Settings",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4104,
+        "title": "Ancient Gene Families and HGT",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4105,
+        "title": "Early Animals: Lipid Biosignatures",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4106,
+        "title": "Evolution of Precambrian Life and Primary Producers",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4107,
+        "title": "Early Animals: Evolution of Complex Multicellularity",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4108,
+        "title": "Biosphere-Geosphere Stability and the Evolution of Complex Life",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4109,
+        "title": "Early Animals: Taphonomic Controls on Fossil Record",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4110,
+        "title": "Mars Analog Studies: Ice Covered Lakes on Earth and Mars",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4111,
+        "title": "The MER Mission to Mars",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4112,
+        "title": "The MSL Mission to Mars",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4113,
+        "title": "Fullerenes and Mass Extinctions?",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4114,
+        "title": "Progress in the Elucidation of Microbial Biosignatures",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4115,
+        "title": "Early Animals: Modeling the Biotic-Abiotic Interface in the Early Evolution of Multicellular Form",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4116,
+        "title": "Early Animals: Sensory Systems and Combinatorial Codes",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4117,
+        "title": "Taphonomy of Microbial Ecosystems",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4118,
+        "title": "Early Animals: The Origins of Biological Complexity",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4119,
+        "title": "Earth's Evolving Nitrogen Cycle - Implications for Community Complexity and Stability",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4120,
+        "title": "Paleontological, Sedimentological, and Geochemical Investigations of the Mesoproterozoic-Neoproterozoic Transition",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 4121,
+        "title": "Early Animals: The Genomic Origins of Morphological Complexity",
+        "team_report": {
+            "pk": 419,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 43,
+                "name": "Massachusetts Institute of Technology"
+            }
+        }
+    }, {
+        "pk": 2240,
+        "title": "Modeling Early Atmospheric Composition and Climate",
+        "team_report": {
+            "pk": 243,
+            "annual_report": {
+                "pk": 19,
+                "start": "2002-07-01",
+                "end": "2003-06-30"
+            },
+            "team": {
+                "pk": 8,
+                "name": "Pennsylvania State University"
+            }
+        }
+    }, {
+        "pk": 4133,
+        "title": "Jon Toner NAI NPP Postdoc Report",
+        "team_report": {
+            "pk": 421,
+            "annual_report": {
+                "pk": 32,
+                "start": "2015-01-01",
+                "end": "2015-12-31"
+            },
+            "team": {
+                "pk": 42,
+                "name": "VPL at University of Washington"
+            }
+        }
+    }]
+}
